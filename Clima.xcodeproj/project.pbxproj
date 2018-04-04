@@ -10,8 +10,8 @@
 		050F0D1FCF48C09CF52949BF /* Pods_ClimaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F47D8FA131E5474DE4D4425 /* Pods_ClimaTests.framework */; };
 		06AF11DF2073F7A500A41068 /* ClimaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AF11DE2073F7A500A41068 /* ClimaTests.swift */; };
 		06AF11E920745E4D00A41068 /* SomeClassWithFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AF11E820745E4D00A41068 /* SomeClassWithFunction.swift */; };
-		06AF11ED2075485C00A41068 /* GeneratedMocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AF11EC2075485C00A41068 /* GeneratedMocks.swift */; };
 		06AF11FA2075502D00A41068 /* Cuckoo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06AF11FB2075502D00A41068 /* Cuckoo.framework */; };
+		06AF11FD20755E7900A41068 /* GeneratedMocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AF11FC20755E7900A41068 /* GeneratedMocks.swift */; };
 		63E28AD11B99C32400FBF6E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E28AD01B99C32400FBF6E0 /* AppDelegate.swift */; };
 		63E28AF11B99C35700FBF6E0 /* WeatherDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E28AF01B99C35700FBF6E0 /* WeatherDataModel.swift */; };
 		63E28AF61B99C36100FBF6E0 /* ChangeCityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E28AF21B99C36100FBF6E0 /* ChangeCityViewController.swift */; };
@@ -38,7 +38,6 @@
 		06AF11DE2073F7A500A41068 /* ClimaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimaTests.swift; sourceTree = "<group>"; };
 		06AF11E02073F7A500A41068 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		06AF11E820745E4D00A41068 /* SomeClassWithFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeClassWithFunction.swift; sourceTree = "<group>"; };
-		06AF11EC2075485C00A41068 /* GeneratedMocks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneratedMocks.swift; sourceTree = "<group>"; };
 		06AF11EF207548C600A41068 /* Cuckoo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Cuckoo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		06AF11F1207548F300A41068 /* Cuckoo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Cuckoo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		06AF11F32075492400A41068 /* Pods_Clima.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_Clima.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +45,7 @@
 		06AF11F720754C1900A41068 /* Cuckoo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Cuckoo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		06AF11F920754EBA00A41068 /* Cuckoo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Cuckoo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		06AF11FB2075502D00A41068 /* Cuckoo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Cuckoo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		06AF11FC20755E7900A41068 /* GeneratedMocks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneratedMocks.swift; sourceTree = "<group>"; };
 		47590703BA4AA37CA9A652F2 /* Pods_Clima.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Clima.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		63E28ACB1B99C32400FBF6E0 /* Clima.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clima.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63E28ACF1B99C32400FBF6E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -88,8 +88,8 @@
 		06AF11DD2073F7A500A41068 /* ClimaTests */ = {
 			isa = PBXGroup;
 			children = (
-				06AF11EC2075485C00A41068 /* GeneratedMocks.swift */,
 				06AF11DE2073F7A500A41068 /* ClimaTests.swift */,
+				06AF11FC20755E7900A41068 /* GeneratedMocks.swift */,
 				06AF11E02073F7A500A41068 /* Info.plist */,
 			);
 			path = ClimaTests;
@@ -423,7 +423,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				06AF11DF2073F7A500A41068 /* ClimaTests.swift in Sources */,
-				06AF11ED2075485C00A41068 /* GeneratedMocks.swift in Sources */,
+				06AF11FD20755E7900A41068 /* GeneratedMocks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

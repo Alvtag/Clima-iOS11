@@ -1,4 +1,4 @@
-// MARK: - Mocks generated from file: Clima/SomeClassWithFunction.swift at 2018-04-04 18:50:01 +0000
+// MARK: - Mocks generated from file: Clima/SomeClassWithFunction.swift at 2018-04-04 20:12:06 +0000
 
 //
 //  SomeClassWithFunction.swift
